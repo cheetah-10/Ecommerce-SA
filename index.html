@@ -1,17 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
     <title>Document</title>
 </head>
-<body>
-    
+
+<body class="bg-basicColor1 txt-basicColor1">
+
+    <nav class=" px-3  navbar navbar-expand-lg txt-basicColor1">
+        <div class="container-fluid">
+            <a class="navbar-brand txt-basicColor1 fs-4" href="#">ElectroX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item txt-basicColor1">
+                        <a class="nav-link" href="#">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link txt-basicColor1" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WishList</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CRUDS</a>
+                    </li>
+                    
+                </ul>
+                
+                <ul class="navbar-nav">
+                    <form class="d-flex me-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class=" btn btn-outline-light" type="submit">Search</button>
+                      </form>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="m-auto px-4">
+        <div class="py- bg-basicColor2 rounded-4 ">
+            <div class="d-flex m-auto w-75">
+
+                <div class="flex-column justify-content-center align-content-center">
+                    <p>SHOP TO GET WHAT YOU LOVE</p>
+                    <P class="fs-1 w-75 ">TIMEPIECES THAT MAKE A STATEMENT UP TO <br> <span class="fw-bold">40 % OFF</span></P>
+                </div>
+                <div class="img w-75">
+                    <img class="w-100" src="images/iphone.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
 
 
 
-   <source src="" type="">
-   <script src="JS/index.js"></script>
+
+
+
+
+
+
+
+
+    <div id="products"></div>
+
+
+
+
+    <script src="JS/index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,153 @@
+{
+  "bestSellers": [
+    {
+      "id": 0,
+      "title": "Canon Camera Stand",
+      "description": "Canon's premium camera stand for stable shooting and easy adjustments.",
+      "price": 699.99,
+      "image": "images/cameraCanonStand.png"
+    },
+    {
+      "id": 1,
+      "title": "Sony Headphones",
+      "description": "Sony's noise-canceling headphones for clear, immersive sound.",
+      "price": 899.99,
+      "image": "images/headPhone.png"
+    },
+    {
+      "id": 2,
+      "title": "Apple Smartwatch",
+      "description": "Apple's latest smartwatch with advanced fitness tracking and health features.",
+      "price": 1199.99,
+      "image": "images/smartWatch.png"
+    },
+    {
+      "id": 3,
+      "title": "LG UltraGear Gaming Monitor",
+      "description": "LG's ultra-fast 144Hz refresh rate monitor for an immersive gaming experience.",
+      "price": 399.99,
+      "image": "images/monitor2.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 4,
+      "title": "Bose SoundLink Revolve Speaker",
+      "description": "Bose portable Bluetooth speaker offering 360-degree sound and deep bass.",
+      "price": 199.99,
+      "image": "images/headPhone.png"
+    },
+    {
+      "id": 5,
+      "title": "Sony WH-1000XM5 Headphones",
+      "description": "Sony's top-of-the-line noise-canceling headphones for a premium sound experience.",
+      "price": 349.99,
+      "image": "images/blackPhone.png"
+    },
+    {
+      "id": 6,
+      "title": "Amazon Echo Dot 5th Gen",
+      "description": "Amazon's compact smart speaker with Alexa to control your smart home.",
+      "price": 49.99,
+      "image": "images/monitor1.png"
+    },
+    {
+      "id": 7,
+      "title": "GoPro HERO11 Black",
+      "description": "GoPro's rugged action camera, perfect for 5.3K video and extreme sports.",
+      "price": 499.99,
+      "image": "images/whiteCamera.png"
+    },
+    {
+      "id": 8,
+      "title": "Microsoft Surface Laptop 5",
+      "description": "Microsoft's high-performance laptop with a stunning touchscreen display.",
+      "price": 1299.99,
+      "image": "images/monitor2.png"
+    },
+    {
+      "id": 9,
+      "title": "Anker Portable Power Bank",
+      "description": "Anker's high-capacity power bank with 20000mAh for all-day charging.",
+      "price": 39.99,
+      "image": "images/mouse.png"
+    },
+    {
+      "id": 10,
+      "title": "DJI Mini 3 Pro Drone",
+      "description": "DJI's lightweight drone capable of shooting 4K video for stunning aerial shots.",
+      "price": 759.99,
+      "image": "images/smartSpeaker.png"
+    },
+    {
+      "id": 11,
+      "title": "Razer DeathAdder V2 Mouse",
+      "description": "Razer's ergonomic gaming mouse with customizable RGB lighting for precision.",
+      "price": 69.99,
+      "image": "images/smartWatch.png"
+    },
+    {
+      "id": 12,
+      "title": "Philips Hue Smart Bulb",
+      "description": "Philips' smart LED bulb with adjustable colors and brightness for your home.",
+      "price": 34.99,
+      "image": "images/tablet.png"
+    },
+    {
+      "id": 13,
+      "title": "Bose SoundLink Revolve Speaker",
+      "description": "Bose portable Bluetooth speaker offering 360-degree sound and deep bass.",
+      "price": 199.99,
+      "image": "images/usbCable.png"
+    },
+    {
+      "id": 14,
+      "title": "GoPro HERO9 Black",
+      "description": "GoPro's action camera with enhanced stabilization for smooth footage.",
+      "price": 399.99,
+      "image": "images/whiteCamera.png"
+    },
+    {
+      "id": 15,
+      "title": "Logitech Gaming Mouse",
+      "description": "Logitech's high-performance gaming mouse designed for responsive gameplay.",
+      "price": 79.99,
+      "image": "images/mousePad.png"
+    },
+    {
+      "id": 16,
+      "title": "Logitech Bluetooth Keyboard",
+      "description": "Logitech's Bluetooth keyboard with a sleek design and long battery life.",
+      "price": 129.99,
+      "image": "images/keyboardWhiteBlue.png"
+    },
+    {
+      "id": 17,
+      "title": "Canon Camera Stand",
+      "description": "Canon's premium camera stand for stable shooting and easy adjustments.",
+      "price": 699.99,
+      "image": "images/cameraCanonStand.png"
+    },
+    {
+      "id": 18,
+      "title": "HP Laptop",
+      "description": "HP's lightweight laptop with powerful performance for everyday tasks.",
+      "price": 799.99,
+      "image": "images/labBackgrounde.png"
+    },
+    {
+      "id": 19,
+      "title": "Anker USB Charger",
+      "description": "Anker's compact and fast-charging USB adapter for all your devices.",
+      "price": 29.99,
+      "image": "images/charger.png"
+    },
+    {
+      "id": 20,
+      "title": "Apple Magic Keyboard",
+      "description": "Apple's wireless keyboard with a slim design and responsive keys.",
+      "price": 129.99,
+      "image": "images/whiteKeyboard.png"
+    }
+  ]
+}

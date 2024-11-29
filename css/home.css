@@ -1,0 +1,20 @@
+.bg-basicColor1{
+    background-color: #1c1d20 ;
+}
+.bg-basicColor2{
+    background-color: #292B30;
+    /* background-color: ; */
+}
+.txt-basicColor1{
+    color: white ;
+}
+
+.nav-link{
+    color: white !important;
+}
+.form-control {
+    height: 35px;
+}
+.btn{
+    height: 35px;   
+}
