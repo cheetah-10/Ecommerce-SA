@@ -3,17 +3,18 @@ const container = document.getElementById('products');
 
 let productHTML = '';
 
-fetch('http://localhost:3000/products')
+fetch('https://dummyjson.com/products/category/smartphones')
     .then(response => response.json())
     .then(data => {
+      
        
-        data.forEach(product => {
+        data.products.forEach(product => {
             productHTML += `
         <div class=" productItem rounded-4 text-center bg-basicColorGradientBottom py-3 position-relative" data-id="${product.id}">
-            <img class=" productImageItem m-auto" src="${product.image}" alt="${product.title}">
+            <img class=" productImageItem m-auto" src="${product.thumbnail}" alt="${product.title}">
             <div class="titleProduct">
                 <h3 class=" text-center">${product.title}</h3>
-                <p>${product.description}</p>
+                <p>${product.description.split(" ").splice(0, 5).join(" ")}</p>
                 <p><span class="fw-bold">Price</span>: ${product.price}$</p>
                 <div class="d-flex justify-content-evenly btnaddcart">
                     <button class="btn btn-outline-light addBtn" type="submit">Add +</button>
